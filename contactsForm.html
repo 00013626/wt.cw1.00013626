@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts form</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <h1>
+            <span class="logo">Everbest Edu</span>
+            <img class="logo2" src="./Logo2.png" alt="">
+        </h1>
+        <ul class="navbar">
+            <li>
+                <li><a href="index.html">Home</a></li> 
+               <li> <a href="About.html">About</a></li>
+                <li><a href="OurTeam.html">Our Team</a></li>
+               <li> <a href="Courses.html">Courses</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contactsForm.html" class="current">Contacts</a></li>
+            </li>
+        </ul>
+    </div>
+</div>
+<body>
+  <div class="ContactForm">
+    <form onsubmit="event.preventDefault(); validateForm()">
+<div class="title">
+    <h2>Contact Information</h2>
+</div>
+     <div class="half" >
+        <div class="item">
+            <label for="name">NAME</label>
+            <input type="text" id="name">
+            <small class="error"></small>
+        </div>
+        <div class="item">
+            <label for="email">E-MAIL</label>
+            <input type="text" id="email">
+            <small class="error"></small>
+        </div>
+     </div>
+     <div class="full">
+        <label for="message">MESSAGE</label>
+        <textarea name="" id="message"></textarea>
+        <small class="error"></small>
+     </div>
+     <div class="action">
+        <input type="submit" value="Send Message">
+        <input type="reset" value="reset">
+        <p id="success"></p>
+     </div>
+    </form>
+  </div>
+<!--Footer Section-->
+<div class="Clear"></div>
+<div id="Footer"><section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box">
+            <i class="fas fa-Edu fa-3px"></i>
+            <h3>Location</h3>
+            <p>
+                93 Markaziy Street,Khazarasp district,Khorezm, Uzbekistan
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3px"></i>
+            <h3>Phone number</h3>
+            <p>
+               +998-97-517-32-32
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-Edu fa-3px"></i>
+            <h3>Email</h3>
+            <p>
+                EverbestEdu@gmail.com
+            </p>
+        </div>
+    </div>
+</div>
+
+</section>
+ 
+</body>
+</html>

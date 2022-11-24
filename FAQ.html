@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Header Section -->
+<div id="header">
+    <div class="container">
+        <h1>
+            <span class="logo">Everbest Edu</span>
+            <img class="logo2" src="./Logo2.png" alt="">
+        </h1>
+        <ul class="navbar">
+            <li>
+                <li><a href="index.html" class="current">Home</a></li> 
+               <li> <a href="About.html">About</a></li>
+                <li><a href="OurTeam.html">Our Team</a></li>
+               <li> <a href="Courses.html">Courses</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+                <li><a href="contactsForm.html">Contacts</a></li>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="FAQ-body"> 
+    <div class="FAQ"> <!--Accordition-->
+        <div class="image-box">
+            <img src="./FAQimg.jpg" alt="">
+        </div>
+        <div class="FAQ-text"> <!--Accordition text-->
+            <div class="FAQ-title">FAQ</div>
+        <ul class="faq-text">
+            <li>
+                <div class="question-row">
+                    <span class="question">Where Everbest Edu is located?</span>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Everbest Edu is located in 93, Markaziy street,Khazarasp district,Khorezm,Uzbekistan</p>
+                <span class="line"></span>
+            </li>
+
+            <li>
+                <div class="question-row">
+                    <span class="question">What courses does Edu center include?</span>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>In Everbest Edu, There are Ielts,General English,SAT and Math courses availabe.</p>
+                <span class="line"></span>
+            </li>
+
+            <li>
+                <div class="question-row">
+                    <span class="question">How many students does Everbest have?</span>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>Currently, there are about 2000 hundred students studying at this center</p>
+                <span class="line"></span>
+            </li>
+
+            <li>
+                <div class="question-row">
+                    <span class="question">How many teachers does this Edu have?</span>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <p>There are currently 4 teachers and a manager are working.</p>
+                <span class="line"></span>
+            </li>
+
+            <li>
+                <div class="question-row">
+                    <span class="question">Can I achieve higher band scores from Ielts and SAT?</span>
+                    <i class="bx bxs-chevron-down arrow"></i>
+                </div>
+                <P>Our Edu center and qualified teachers will propably help to get higher scores from both.</P>
+                <span class="line"></span>
+            </li>
+        </ul>
+            </div>
+     </div>
+</div>
+    <!--Footer Section-->
+<div class="Clear"></div>
+<div id="Footer"><section id="contact-info" class="bg-dark">
+    <div class="container">
+        <div class="box">
+            <i class="fas fa-Edu fa-3px"></i>
+            <h3>Location</h3>
+            <p>
+                93 Markaziy Street,Khazarasp district,Khorezm, Uzbekistan
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-phone fa-3px"></i>
+            <h3>Phone number</h3>
+            <p>
+               +998-97-517-32-32
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-Edu fa-3px"></i>
+            <h3>Email</h3>
+            <p>
+                EverbestEdu@gmail.com
+            </p>
+        </div>
+    </div>
+</div>
+<!--
+<script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer"); 
+      });
+    }
+  </script>
+ -->
+</body>
+</html>
